@@ -58,7 +58,7 @@ namespace Microsoft.Exchange.WebServices.Data.Credentials
         /// This method is called to apply credentials to a service request before the request is made.
         /// </summary>
         /// <param name="request">The request.</param>
-        internal override void PrepareWebRequest(IEwsHttpWebRequest request)
+        public override void PrepareWebRequest(IEwsHttpWebRequest request)
         {
             request.ClientCertificates = this.ClientCertificates;
             request.Credentials = this.credentials;

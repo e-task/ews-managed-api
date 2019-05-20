@@ -114,7 +114,7 @@ namespace Microsoft.Exchange.WebServices.Data
         /// Add the Authorization header to a service request.
         /// </summary>
         /// <param name="request">The request</param>
-        internal override void PrepareWebRequest(IEwsHttpWebRequest request)
+        public override void PrepareWebRequest(IEwsHttpWebRequest request)
         {
             base.PrepareWebRequest(request);
 
