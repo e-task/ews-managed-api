@@ -27,7 +27,7 @@ using System.Reflection;
 
 // Assembly information
 [assembly: AssemblyTitle("Microsoft Exchange Managed API Extended")]
-[assembly: AssemblyDescription("Extended Microsoft Exchange Web Services (EWS Managed API) to support refreshing of oAuth tokens.  The code is available at https://github.com/e-task/ews-managed-api (forked from https://github.com/OfficeDev/ews-managed-api). The ExchangeCredential is made to be implemented in external assemblies to support also refreshing an oAuth tokens if needed.")]
+[assembly: AssemblyDescription("Extended Microsoft Exchange Web Services (EWS Managed API) to support refreshing of oAuth tokens. The code is available at https://github.com/e-task/ews-managed-api. The ExchangeCredential is made inheritable to be able to implement own credential provider for ExchangeService.")]
 [assembly: AssemblyCompany("eTASK Immobilien Software GmbH")]
 [assembly: AssemblyProduct("Microsoft Exchange Managed API Extended")]
 [assembly: AssemblyCopyright("© eTASK Immobiliens Software GmbH.  All rights reserved.")]

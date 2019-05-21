@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>etask.EWS.SDK</id>
+    <version>$version$</version>
+    <title>etask.EWS.SDK</title>
+    <authors>eTASK Immobilien Software GmbH</authors>
+    <owners>eTASK Immobilien Software GmbH</owners>
+    <licenseUrl>https://github.com/e-task/ews-managed-api/blob/master/license.txt</licenseUrl>
+    <projectUrl>https://github.com/e-task/ews-managed-api</projectUrl>
+    <iconUrl>http://www.etask.de</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Extended Microsoft Exchange Web Services (EWS Managed API) to support refreshing of oAuth tokens. The code is available at https://github.com/e-task/ews-managed-api. The ExchangeCredential is made inheritable to be able to implement own credential provider for ExchangeService. </description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>Exchange EWS API</tags>
+  </metadata>
+</package>
