@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Microsoft.Exchange.WebServices.Data</RootNamespace>
-    <AssemblyName>etask.EWS.Client</AssemblyName>
+    <AssemblyName>etask.EWS.SDK</AssemblyName>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <OldToolsVersion>4.0</OldToolsVersion>
@@ -42,7 +42,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\etask.EWS.Client.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\etask.EWS.SDK.xml</DocumentationFile>
     <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <Prefer32Bit>false</Prefer32Bit>
@@ -879,7 +879,7 @@
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets. -->
-   <!--<UsingTask TaskName="DownloadFile" TaskFactory="CodeTaskFactory" AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.v4.0.dll"> 
+  <!--<UsingTask TaskName="DownloadFile" TaskFactory="CodeTaskFactory" AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.v4.0.dll"> 
      <ParameterGroup> 
        <Url ParameterType="System.String" Required="true" /> 
        <FileName ParameterType="System.String" Required="true" /> 
@@ -894,9 +894,13 @@
      </Task> 
    </UsingTask> 
    <Target Name="AfterBuild" Condition="'$(Configuration)' == 'Release'"> 
-     --><!-- Download nuget.exe if we need it  --><!--
+     -->
+  <!-- Download nuget.exe if we need it  -->
+  <!--
      <DownloadFile Condition="!Exists('$(OutputPath)\nuget.exe')" FileName="$(OutputPath)\nuget.exe" Url="https://dist.nuget.org/win-x86-commandline/latest/nuget.exe" /> 
-     --><!-- Pack up a nuget package  --><!--
+     -->
+  <!-- Pack up a nuget package  -->
+  <!--
      <Exec Command="$(OutputPath)\nuget pack $(ProjectFileName) -Properties Configuration=Release -Symbols -OutputDirectory $(OutputPath) -IncludeReferencedProjects" /> 
-   </Target>--> 
+   </Target>-->
 </Project>

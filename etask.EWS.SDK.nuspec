@@ -15,4 +15,7 @@
     <copyright>Copyright 2019</copyright>
     <tags>Exchange EWS API</tags>
   </metadata>
+  <files>
+    <file src="etask.EWS*.*" target="lib\net40"/> 
+  </files>
 </package>

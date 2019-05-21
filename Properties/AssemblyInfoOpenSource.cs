@@ -27,9 +27,9 @@ using System.Reflection;
 
 // Assembly information
 [assembly: AssemblyTitle("Microsoft Exchange Managed API Extended")]
-[assembly: AssemblyDescription("Extended Microsoft Exchange Web Services (EWS Managed API) to support refreshing of oAuth tokens. The code is available at https://github.com/e-task/ews-managed-api. The ExchangeCredential is made inheritable to be able to implement own credential provider for ExchangeService.")]
+[assembly: AssemblyDescription("Modified Microsoft Exchange Web Services (EWS Managed API) to support refreshing of oAuth tokens. The code is available at https://github.com/e-task/ews-managed-api. The ExchangeCredential is made inheritable to be able to implement own credential provider for ExchangeService.")]
 [assembly: AssemblyCompany("eTASK Immobilien Software GmbH")]
-[assembly: AssemblyProduct("Microsoft Exchange Managed API Extended")]
+[assembly: AssemblyProduct("Microsoft Exchange Managed API Modified")]
 [assembly: AssemblyCopyright("© eTASK Immobiliens Software GmbH.  All rights reserved.")]
 
 // Master branch will have version as 0.0.0.0, when a stable branch is created
